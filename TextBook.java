@@ -54,11 +54,10 @@ public class TextBook
 
     @Override
     public String toString() {
-        return "{" +
-            " title='" + getTitle() + "'" +
-            ", author='" + getAuthor() + "'" +
-            ", publisher='" + getPublisher() + "'" +
-            "}";
+        return "\nTextbook Information:" +
+        "\nTitle: " + this.getTitle() +
+        "\nAuthor: " + this.getAuthor() +
+        "\nPublisher: " + this.getPublisher();
     }
 
 }

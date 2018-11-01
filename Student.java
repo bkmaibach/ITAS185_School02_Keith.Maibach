@@ -69,10 +69,8 @@ public class Student
 
     @Override
     public String toString() {
-        return "{" +
-            " studentId='" + getStudentId() + "'" +
-            ", firstName='" + getFirstName() + "'" +
-            ", lastName='" + getLastName() + "'" +
-            "}";
+        return "\nStudent Information:" + 
+        "\nStudentID: " + this.getStudentId() +
+        "\nName: " + this.getFirstName() + " " + this.getLastName();
     }
 }

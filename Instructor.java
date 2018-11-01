@@ -53,10 +53,9 @@ public class Instructor
 
     @Override
     public String toString() {
-        return "{" +
-            " lastName='" + getLastName() + "'" +
-            ", firstName='" + getFirstName() + "'" +
-            ", officeNumber='" + getOfficeNumber() + "'" +
-            "}";
+        return "\nInstructor Information:" +
+        "\nLast Name: " + this.getLastName() +
+        "\nFirst Name: " + this.getFirstName() +
+        "\nOffice Number: " + this.getOfficeNumber();
     }
 }

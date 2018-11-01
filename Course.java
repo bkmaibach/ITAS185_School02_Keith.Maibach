@@ -77,19 +77,11 @@ public class Course
     public String toString() {
         return "Course Name: " + this.getCourseName() +
         "\n---------------------------------" +
-        "\nInstructor Information:" +
-        "\nLast Name: " + instructor.getLastName() +
-        "\nFirst Name: " + instructor.getFirstName() +
-        "\nOffice Number: " + instructor.getOfficeNumber() +
+        instructor.toString() +
         "\n" +
-        "\nTextbook Information:" +
-        "\nTitle: " + textBook.getTitle() +
-        "\nAuthor: " + textBook.getAuthor() +
-        "\nPublisher: " + textBook.getPublisher() +
+        textBook.toString() +
         "\n" +
-        "\nStudent Information:" + 
-        "\nStudentID: " + student.getStudentId() +
-        "\nName: " + student.getFirstName() + " " + student.getLastName() +
+        student.toString() +
         "\n";
     }
 
