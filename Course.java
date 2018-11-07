@@ -19,9 +19,9 @@ public class Course
     }
 
     public Course(Course object2) {
-        setCourseName(object2.getCourseName());
-        setInstructor(object2.getInstructor());
-        setTextBook(object2.getTextBook());
+        this.courseName = object2.getCourseName();
+        this.instructor = object2.getInstructor();
+        this.textBook = object2.getTextBook();
     }
 
     public void enroll(Student newStudent){
