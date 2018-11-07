@@ -23,9 +23,9 @@ public class TextBook
     }
 
     public TextBook(TextBook object2){
-       title = object2.title;
-       author = object2.author;
-       publisher = object2.publisher;
+       title = object2.getTitle();
+       author = object2.getAuthor();
+       publisher = object2.getPublisher();
     }
 
     public String getTitle() {
