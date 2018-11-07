@@ -27,9 +27,9 @@ public class Student
     }
 
     public Student(Student object2) {
-        this.studentId = object2.studentId;
-        this.firstName = object2.firstName;
-        this.lastName = object2.lastName;
+        this.studentId = object2.getStudentId();
+        this.firstName = object2.getFirstName();
+        this.lastName = object2.getLastName();
     }
 
     @Override

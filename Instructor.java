@@ -22,9 +22,9 @@ public class Instructor
     }
 
     public Instructor(Instructor object2){
-        this.lastName = object2.lastName;
-        this.firstName = object2.firstName;
-        this.officeNumber = object2.officeNumber;
+        this.lastName = object2.getLastName();
+        this.firstName = object2.getFirstName();
+        this.officeNumber = object2.getOfficeNumber();
     }
 
     public String getLastName() {

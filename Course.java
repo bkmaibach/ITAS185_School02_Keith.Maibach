@@ -7,10 +7,10 @@
  */
 public class Course
 {
-    String courseName;
-    Instructor instructor;
-    TextBook textBook;
-    Student student = null;
+    private String courseName;
+    private Instructor instructor;
+    private TextBook textBook;
+    private Student student = null;
 
     public Course(String courseName, Instructor instructor, TextBook textBook) {
         this.courseName = courseName;
@@ -19,9 +19,9 @@ public class Course
     }
 
     public Course(Course object2) {
-        setCourseName(object2.courseName);
-        setInstructor(object2.instructor);
-        setTextBook(object2.textBook);
+        setCourseName(object2.getCourseName());
+        setInstructor(object2.getInstructor());
+        setTextBook(object2.getTextBook());
     }
 
     public void enroll(Student newStudent){
